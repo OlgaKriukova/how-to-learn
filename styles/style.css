@@ -39,6 +39,8 @@
   }
 
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   position: absolute;
   width: 388px;
   left: 64px;
@@ -46,6 +48,7 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__link {
@@ -54,6 +57,7 @@
   font-weight: normal;
   color:  #2f80ed;
   text-decoration: none;
+  z-index: 1;
 }
 
 .header__main-illustration {
@@ -84,6 +88,7 @@
 
 .two-columns {
   margin: 0;
+  padding: 0;
   width: 80%;
   min-width: 784px;
   margin-top: 100px;
@@ -108,7 +113,7 @@
   font-weight: normal;
   color: #2f80ed;
   margin: 0;
-  
+  padding: 0;
 }
 
 .two-columns__main-text {
@@ -119,6 +124,8 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
@@ -141,6 +148,7 @@
 .section-title {
   margin: 0;
   margin-top: 100px;
+  padding: 0;
   display: flex;
   position: relative;
   justify-content: center;
@@ -153,11 +161,12 @@
 
 .section-subtitle {
   display: flex;
-  width: 60%;
   margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  width: 60%;
   align-self: center;
   justify-content: center;
-  margin-top: 20px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -165,8 +174,10 @@
 
 .table {
   margin: 0;
+  padding-left: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-self: center;
   margin-bottom: 100px;
   width: 1100px;
@@ -176,13 +187,14 @@
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  margin: 60px 0 0 auto;
+  margin: 60px 0 auto 0;
   padding-left: 0;
   width: 250px;
  }
 
 .table__heading {
   margin: 0;
+  padding: 0;
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
@@ -190,6 +202,7 @@
 
 .table__text {
   margin: 0;
+  padding: 0;
   margin-top: 20px;
   font-size: 18px;
   line-height: 1.2;
@@ -210,6 +223,7 @@
 
 .feynman__title {
   margin: 0;
+  padding: 0;
   margin-top: 100px;
   align-self: center;
   width: 648px;
@@ -221,6 +235,7 @@
 
 .feynman__subtitle {
   margin: 0;
+  padding: 0;
   margin-top: 70px;
   align-self: center;
   line-height: 51px;
@@ -252,7 +267,6 @@
 
 .section-title_theme_dark {
   color: white;
-  margin: 0;
   margin-top: 90px;
   position: relative;
   z-index: 2;
@@ -263,7 +277,6 @@
 
 .section-subtitle_theme_dark {
   color: white;
-  margin: 0;
   position: relative;
   z-index: 2;
 }
@@ -284,6 +297,8 @@
 
 .kaufman__triangle {
   position: absolute;
+  overflow: hidden;
+  top: 0;
   right: -210px;
   width: 877px;
   height: 877px;
@@ -324,6 +339,8 @@
 }
 
 .footer__author {
+  margin: 0;
+  padding: 0;
   margin-top: 18px;
   margin-bottom: 18px;
   line-height: 25px;
@@ -332,6 +349,8 @@
 }
 
 .footer__column-heading {
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
