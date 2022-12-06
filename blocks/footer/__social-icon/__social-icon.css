@@ -1,9 +1,9 @@
 .footer__social-icon {
-    margin-right: 10px;
-    width: 16px;
-    height: 16px;
-  } 
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
 
-  .footer__social-icon:hover {
-    filter: opacity(65%);
-  }
+.footer__social-icon:hover {
+  filter: opacity(65%);
+}
